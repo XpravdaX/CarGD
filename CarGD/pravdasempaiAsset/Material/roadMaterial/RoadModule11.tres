@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://cnhh1kohwkv5p"]
+
+[ext_resource type="Shader" uid="uid://cki750datv32o" path="res://Shader/StyleGG.gdshader" id="1_i5aj3"]
+[ext_resource type="Texture2D" uid="uid://dmgx7c0ta30cr" path="res://pravdasempaiAsset/Texture/roadsTexture/RoadModule14.png" id="2_i5aj3"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_i5aj3")
+shader_parameter/albedo_texture = ExtResource("2_i5aj3")
+shader_parameter/saturation = 1.0
+shader_parameter/brightness = 1.0
+shader_parameter/contrast = 1.0
+shader_parameter/vignette_strength = 0.3
+shader_parameter/tint_color = Color(1, 1, 1, 1)

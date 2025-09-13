@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://ck2ov81tu468r"]
+
+[ext_resource type="Shader" uid="uid://cki750datv32o" path="res://Shader/StyleGG.gdshader" id="1_djrwd"]
+[ext_resource type="Texture2D" uid="uid://b4j6mhxnxl26b" path="res://pravdasempaiAsset/Texture/singTexture/Peshehod_Signal.png" id="2_djrwd"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_djrwd")
+shader_parameter/albedo_texture = ExtResource("2_djrwd")
+shader_parameter/saturation = 1.0
+shader_parameter/brightness = 1.0
+shader_parameter/contrast = 1.0
+shader_parameter/vignette_strength = 0.3
+shader_parameter/tint_color = Color(1, 1, 1, 1)

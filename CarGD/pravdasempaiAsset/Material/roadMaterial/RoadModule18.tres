@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://ct7cme01qmlvj"]
+
+[ext_resource type="Shader" uid="uid://cki750datv32o" path="res://Shader/StyleGG.gdshader" id="1_dulal"]
+[ext_resource type="Texture2D" uid="uid://bac2ed2j7dd8e" path="res://pravdasempaiAsset/Texture/roadsTexture/RoadModule20.png" id="2_dulal"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_dulal")
+shader_parameter/albedo_texture = ExtResource("2_dulal")
+shader_parameter/saturation = 1.0
+shader_parameter/brightness = 1.0
+shader_parameter/contrast = 1.0
+shader_parameter/vignette_strength = 0.3
+shader_parameter/tint_color = Color(1, 1, 1, 1)

@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://ngan72tosjm1"]
+
+[ext_resource type="Shader" uid="uid://cki750datv32o" path="res://Shader/StyleGG.gdshader" id="1_4schk"]
+[ext_resource type="Texture2D" uid="uid://dflgino8y3bu6" path="res://pravdasempaiAsset/Texture/singTexture/DNap.png" id="2_4schk"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_4schk")
+shader_parameter/albedo_texture = ExtResource("2_4schk")
+shader_parameter/saturation = 1.0
+shader_parameter/brightness = 1.0
+shader_parameter/contrast = 1.0
+shader_parameter/vignette_strength = 0.3
+shader_parameter/tint_color = Color(1, 1, 1, 1)

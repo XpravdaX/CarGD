@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://dn36dfj47aiiw"]
+
+[ext_resource type="Shader" uid="uid://cki750datv32o" path="res://Shader/StyleGG.gdshader" id="1_q2wed"]
+[ext_resource type="Texture2D" uid="uid://dkcqasfqkbx40" path="res://pravdasempaiAsset/Texture/singTexture/Fonars.png" id="2_q2wed"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_q2wed")
+shader_parameter/albedo_texture = ExtResource("2_q2wed")
+shader_parameter/saturation = 1.0
+shader_parameter/brightness = 1.0
+shader_parameter/contrast = 1.0
+shader_parameter/vignette_strength = 0.3
+shader_parameter/tint_color = Color(1, 1, 1, 1)
